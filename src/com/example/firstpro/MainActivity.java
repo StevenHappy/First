@@ -4,6 +4,10 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
+
+
+
+
 public class MainActivity extends Activity {
 
 	@Override
@@ -19,4 +23,9 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
 }
